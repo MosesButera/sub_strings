@@ -15,3 +15,7 @@ def sub_strings (sentence, dictionary)
   end
   return hash
 end
+
+
+sub_strings("Howdy partner, sit down! How's it going?", dictionary)
+
