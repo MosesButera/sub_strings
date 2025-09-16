@@ -14,13 +14,13 @@ sub_strings("Howdy partner, sit down! How's it going?", dictionary)
 
 ✨ Features
 
-Accepts any sentence as input.
+* Accepts any sentence as input.
 
-Case-insensitive matching (e.g., "Howdy" and "how" both match).
+* Case-insensitive matching (e.g., "Howdy" and "how" both match).
 
-Supports dictionaries with any set of words.
+* Supports dictionaries with any set of words.
 
-Returns a hash of found words and their counts.
+* Returns a hash of found words and their counts.
 
 
 🧩 Pseudocode
@@ -42,19 +42,19 @@ The main pattern used here is:
 
 "Scan, Count, Store"
 
-Scan the input string for each dictionary word (with regex + scan).
+1. Scan the input string for each dictionary word (with regex + scan).
 
-Count the number of matches found.
+2. Count the number of matches found.
 
-Store the count in a hash keyed by the word (only if it appeared).
+3. Store the count in a hash keyed by the word (only if it appeared).
 
 This pattern is powerful for solving substring or frequency problems:
 
-Works on any length input.
+* Works on any length input.
 
-Automatically handles multiple matches.
+* Automatically handles multiple matches.
 
-Keeps track of results in a structured way (hash).
+* Keeps track of results in a structured way (hash).
 
 
 
