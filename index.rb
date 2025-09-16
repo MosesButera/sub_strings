@@ -7,11 +7,12 @@ def sub_strings (sentence, dictionary)
   dictionary.map do |element|
 
     occurrences = sentence.downcase.scan(/#{Regexp.escape(element)}/).count
-
+    
+    if occurrences > 0
+      hash[element] += occurrences
+    end
 
   end
-  
-
 
 
 end
