@@ -13,6 +13,5 @@ def sub_strings (sentence, dictionary)
     end
 
   end
-
-
+  return hash
 end
